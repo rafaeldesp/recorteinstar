@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #efeef2;
+}
+
+.headerPrinc{
+    width: 100%;
+    background: linear-gradient(180deg, #fff 0%, #ffffff 130px, #228652 130px);
+}
+
+.contHeader {
+    width: 100%;
+    max-width: 1160px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    max-width: 1160px;
+    max-height: 150px ;
+    margin: auto;
+}
+
+.logoUcaraniaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+}
+
+.topodapagina {
+    flex: calc(100% - 350px);
+    display: flex;
+    flex-direction: column;
+}
+
+.logoUcarania {
+    padding: 5px;
+    width: 300px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.boxLogin {
+    white-space: nowrap;
+    background: #e0f3ea;
+    font-style: italic;
+    padding: 5px;
+    font-size: 10px;
+    color: #6f6366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.parteDeCimaDoTopo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+}
+
+.igIcon {
+    background: #d62fd3;
+}
+
+.whatsappIcon {
+    background: #01ae48;
+}
+
+.ytIcon {
+    background: #fb5f66;
+}
+
+.fbIcon {
+    background:#2061c3 ;
+}
+
+.smallBox {
+    height: 30px;
+    width: 30px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+
+.redeSociais {
+    display: flex;
+
+}
+
+.itensDoMenu {
+    height: 80px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 10px
+}
+
+.itensDoMenu li {
+    text-align: center;
+    transition: 1s;
+}
+
+.itensDoMenu li:hover {
+    border-bottom: 1px solid #228652;
+
+}
+
+.mediumBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #228652;
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+
+.bigMediumBox {
+    background-color: #1b7947;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenArea {
+    background:#228652 ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acessibilidade {
+    display: flex;
+}
+
+.borderMedBox {
+    background-color: transparent;
+    border: 1px solid #4d9f76;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.borderMedBox:hover {
+    color: blue;
+}
+
+.GAcontent {
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #228652;
+}
+
+.session-info {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.session-text  {
+    margin-left: 10px;
+}
+
+.session-text h4 {
+    font-size: 11px;
+}
+
+.session-text p {
+    font-style: italic;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background: #228652;
+    border: none;
+    height: 50px;
+    margin-right: 5px;
+    width: 400px;
+    border-bottom: 1px #4d9f76 solid;
+    outline: none;
+    color: #e0f3ea;
+}
+
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+    opacity: 1;
+}
+
+.addBox {
+    order: 3;
+    color: #fff;
+    background: #228652 ;
+}
+
+.modulePrinc {
+    max-width: 1160px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.titlePrinc {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: 70px;
+}
+.titlePrincCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+}
+
+.ContTitle {
+    order: 1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.ContTitle::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 20px;
+    background-color: #4CAF50;
+    margin-right: 10px;
+}
+
+.news-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.news-image {
+    flex: 60%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.news-image img{
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+}
+
+.news-content {
+    flex: 40%;
+    margin: 10px;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+.news-category {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+
+.news-date {
+    color: #228652;
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.news-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.news-views {
+    font-size: 12px;
+    color: #888;
+}
+
+.news-views i{
+    margin-right: 5px;
+}
+
+.bottomContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: calc(100% - 40px);
+}
+
+.cardsNews {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+}
+
+.cardNew {
+    background: white;
+    flex: 30%;
+}
+
+
+.cardImg img {
+    width: 100%;
+    height: 100%;
+    max-height: 250px;
+}
+
+.cardImg iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 245px;
+}
+
+.contCardNew {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.newContent {
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin: 0 10px 10px 10px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    position: relative;
+}
+
+.cardNew .news-title {
+    border-top: 0;
+    max-height: 50px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.cardNew .news-date {
+    margin-left: 0;
+}
+
+.footerPrinc {
+    background: #1c583b;
+    margin-top: 30px;
+}
+
+.contFooter {
+    width: 100%;
+    max-width: 1160px;
+    margin: auto;
+    padding: 30px;
+}
+
+.footerTopBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-right: none;
+}
+
+.footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+
+.redeSociaisFooter div{
+    margin-top: 5px ;
+}
+
+.redeSociaisFooter h4 {
+    color: white;
+}
+
+.newsletterBox {
+    display: flex;
+    align-items: center;
+}
+
+.newsletterText h3 {
+    color: white;
+}
+
+.newsletterText {
+    max-width: 200px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contactFooter {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.informaçãoFooter {
+    width: 25%;
+    gap: 20px;
+    text-align: center;
+}
+
+.informaçãoFooter h5 {
+
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+.informaçãoFooter p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+}
+
+.footerVersion {
+    gap: 60px;
+    height: 60px;
+    background: #246746;
+    display: flex;
+    color: #fdfff2;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyrightFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+
+@media (max-width: 1160px) {
+    .itensDoMenu {
+        padding: 20px;
+        font-size: 13px;
+    }
+
+    .mediumBox {
+        width: 30px;
+        height: 30px;
+    }
+
+    .smallBox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logoUcarania {
+        width: 250px;
+        height: 90px;
+    }
+}
